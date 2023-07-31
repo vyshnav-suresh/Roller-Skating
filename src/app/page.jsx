@@ -1,9 +1,9 @@
 'use client'
-import Footer from '@/Components/Footer'
-import Hero from '@/Components/Hero'
-import Movingbanner from '@/Components/Movingbanner'
-import Navbar from '@/Components/Navbar'
-import Services from '@/Components/Services'
+import Footer from '@/components/Footer'
+import Hero from '@/components/Hero'
+import Movingbanner from '@/components/Movingbanner'
+import Navbar from '@/components/Navbar'
+import Services from '@/components/Services'
 import React from 'react'
 
 const page = () => {
