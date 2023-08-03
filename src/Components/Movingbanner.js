@@ -3,7 +3,7 @@ import React from 'react'
 
 const Movingbanner = () => {
   return (
-    <div className='h-10'>
+    <div className='h-10 '>
        <section className="mb-4">
     <div
       className="alert h-10 alert-dismissible fade show bg-red-500 top-0 right-0 left-0 z-[1030] w-full items-center justify-between bg-primary py-4 px-6 text-center text-white md:flex md:text-left">

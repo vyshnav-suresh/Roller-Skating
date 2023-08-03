@@ -1,8 +1,9 @@
 // import Image from 'next/image';
 // import { BsFillPlayFill } from 'react-icons/bs';
 // import Carousel from './Carousal';
-import Carousels from './Carousal';
+
 import React from "react";
+import Carousels from "./Carousal";
 
 export default function Hero() {
  
