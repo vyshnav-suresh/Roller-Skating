@@ -37,7 +37,7 @@ export default function Why({
             <p className="mb-8 leading-relaxed text-xs">{para}</p>
             <div className="flex justify-center">
               <button className="inline-flex text-white bg-[#F86061] border-0 py-2 px-6 focus:outline-none hover:bg-[#da1d1d] rounded text-lg">
-                Explore No
+                Explore No hgjkk
               </button>
             </div>
           </div>
