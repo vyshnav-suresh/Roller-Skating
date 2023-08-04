@@ -1,5 +1,4 @@
 'use client'
-
 import { MantineProvider } from '@mantine/core'
 import './globals.css'
 import { Inter } from 'next/font/google'
@@ -33,9 +32,7 @@ export default function RootLayout({ children }) {
         }}
       >
       <Navbar />
-      <div className='bg-white_cream text-white_cream'>
       {children}
-      </div>
       <Footer/>
       </MantineProvider>
       </body>
