@@ -1,6 +1,6 @@
 'use client'
 import Movingbanner from '@/components/Movingbanner'
-import Navbar from '@/components/common/Navbar'
+import Navbar from '@/components/Navbar'
 import React from 'react'
 
 
