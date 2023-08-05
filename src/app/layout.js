@@ -3,7 +3,6 @@ import './globals.css'
 import React from 'react'
 import { Inter } from 'next/font/google'
 import { MantineProvider } from '@mantine/core'
-import Navbar from '../components/common/Navbar'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -26,9 +25,8 @@ export default function RootLayout({ children }) {
           white_cream:'#FBFAE1'
         }}
       >
-      <Navbar />
+      
       {children}
-      {/* <Footer/> */}
       </MantineProvider>
       </body>
     </html>
