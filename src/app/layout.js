@@ -2,8 +2,6 @@
 import './globals.css'
 import React from 'react'
 import { Inter } from 'next/font/google'
-import Footer from '@/components/common/Footer'
-import Navbar from '@/components/common/Navbar'
 import { MantineProvider } from '@mantine/core'
 
 
