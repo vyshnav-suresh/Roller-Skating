@@ -1,5 +1,4 @@
-'use client'
-
+import React from 'react'
 import { createStyles, Header, Menu, Group, Center, Burger, Container, rem, Text } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import { IconChevronDown } from '@tabler/icons-react';
@@ -52,7 +51,7 @@ const useStyles = createStyles((theme) => ({
   },
 }));
 
-export default function Navbar() {
+const Navbar=()=>{
   const [opened, { toggle }] = useDisclosure(false);
   const { classes } = useStyles();
   const links=[
@@ -170,3 +169,4 @@ export default function Navbar() {
     </Header>
   );
 }
+export default Navbar
