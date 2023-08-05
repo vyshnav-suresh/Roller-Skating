@@ -1,7 +1,8 @@
+'use client'
+
 import { createStyles, Header, Menu, Group, Center, Burger, Container, rem, Text } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import { IconChevronDown } from '@tabler/icons-react';
-import { MantineLogo } from '@mantine/ds';
 import Image from 'next/image';
 
 const useStyles = createStyles((theme) => ({

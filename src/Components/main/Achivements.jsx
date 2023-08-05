@@ -1,3 +1,5 @@
+'use client'
+
 import { createStyles, SimpleGrid, Card, Image, Text, Container, AspectRatio } from '@mantine/core';
 
 const mockdata = [

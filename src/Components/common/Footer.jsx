@@ -1,3 +1,5 @@
+'use client'
+
 import { createStyles, Text, Container, ActionIcon, Group, rem } from '@mantine/core';
 import { IconBrandTwitter, IconBrandYoutube, IconBrandInstagram } from '@tabler/icons-react';
 import { MantineLogo } from '@mantine/ds';

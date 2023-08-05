@@ -1,3 +1,4 @@
+'use client'
 import Movingbanner from '@/components/Movingbanner'
 import React from 'react'
 import Teams from '@/components/main/Teams'
