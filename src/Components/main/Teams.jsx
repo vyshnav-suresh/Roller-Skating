@@ -63,6 +63,10 @@ import {
         theme.colorScheme === 'dark' ? theme.colors.dark[5] : theme.colors.gray[1]
       }`,
     },
+    cont:{
+      maxWidth:'100%',
+
+    },
   
     cardTitle: {
       '&::after': {
@@ -91,20 +95,19 @@ import {
     ));
   
     return (
-      <Container size="xl" py="xl" className='bg-secondary_light'>
+      <Container size="xl" py="xl" className={`bg-secondary_light ${classes.cont}`}>
         <Group position="center">
           <Badge variant="filled" size="lg">
-            Best company ever
+            The best club in kerala
           </Badge>
         </Group>
   
         <Title order={2} className={classes.title} ta="center" mt="sm">
-          Integrate effortlessly with any technology stack
+          Gain high skills in short time with the help of our experts
         </Title>
   
-        <Text c="dimmed" className={classes.description} ta="center" mt="md">
-          Every once in a while, you’ll see a Golbat that’s missing some fangs. This happens when
-          hunger drives it to try biting a Steel-type Pokémon.
+        <Text c="dimmed" className={`flex justify-center items-center text-main_light${classes.description}`} ta="center" mt="md">
+          Classes Available every Friday to Sunday(4PM-7PM).
         </Text>
         <SimpleGrid cols={3} spacing="xl" mt={50} breakpoints={[{ maxWidth: 'md', cols: 1 }]}>
           {features}

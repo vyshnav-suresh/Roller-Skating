@@ -36,7 +36,9 @@ const useStyles = createStyles((theme) => ({
       boxShadow: theme.shadows.md,
     },
   },
-
+  cont:{
+    maxWidth:'100%',
+  },
   title: {
     fontFamily: `Greycliff CF, ${theme.fontFamily}`,
     fontWeight: 600,
@@ -47,7 +49,7 @@ export default function Achivements() {
   const { classes } = useStyles();
 
   const cards = mockdata.map((article) => (
-    <Card key={article.title} p="md" radius="md" component="a" href="#" className={`bg-main_dark ${classes.card}`}>
+    <Card key={article.title} p="md" radius="md" component="a" href="#" className={`bg-secondary_light ${classes.card}`}>
       <AspectRatio ratio={1920 / 1080}>
         <Image src={article.image} alt='ff'/>
       </AspectRatio>
@@ -61,7 +63,7 @@ export default function Achivements() {
   ));
 
   return (
-    <Container py="xl" size={'xl'} className='bg-main_light'>
+    <Container py="xl" size={'xl'} className={`bg-main_light ${classes.cont}`}>
       <SimpleGrid cols={2} breakpoints={[{ maxWidth: 'sm', cols: 1 }]}>
         {cards}
       </SimpleGrid>

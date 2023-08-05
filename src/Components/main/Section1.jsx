@@ -6,7 +6,7 @@ const useStyles = createStyles((theme) => ({
     position: 'relative',
     paddingTop: rem(120),
     paddingBottom: rem(80),
-
+    maxWidth:'100%',
     [theme.fn.smallerThan('sm')]: {
       paddingTop: rem(80),
       paddingBottom: rem(60),
@@ -91,36 +91,35 @@ export default function HeroText() {
   const { classes } = useStyles();
 
   return (
-    <Container className={`bg-main_light ${classes.wrapper}`} size={1400}>
-    <div className='flex'>
+    <Container className={`bg-main_light ${classes.wrapper}`} >
+    <div className='flex justify-center items-center'>
       <div className={classes.inner}>
 
         <Title className={classes.title}>
-          Automated AI{' '}
+        Ris Roller {' '}
           <Text component="span" className={classes.highlight} inherit>
-            code reviews
+          skating 
           </Text>{' '}
-          for any stack
+          club
         </Title>
 
         <Container p={0} size={600}>
           <Text size="lg" color="dimmed" className={classes.description}>
-            Build more reliable software with AI companion. AI is also trained to detect lazy
-            developers who do nothing and just complain on Twitter.
+            Fast wheels ,Sharp Skills.
           </Text>
         </Container>
 
         <div className={classes.controls}>
-          <Button className={classes.control} size="lg" variant="default" color="gray">
-            Book a demo
+          <Button className={`border-main_dark ${classes.control}`} size="lg" variant="default" color="gray">
+            Jion Now
           </Button>
-          <Button className={classes.control} size="lg">
+          {/* <Button className={classes.control} size="lg">
             Purchase a license
-          </Button>
+          </Button> */}
         </div>
      
       </div>
-      <CardsCarousel/>
+      {/* <CardsCarousel/> */}
       </div>
     </Container>
   );
