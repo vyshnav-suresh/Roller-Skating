@@ -8,10 +8,11 @@ import React from 'react'
 const page = () => {
   return (
     <div className='bg-white_cream text-white_cream'>
-    <Movingbanner/>
+    {/* <Movingbanner/>
   <HeroText/>
   <Teams/>
-  <Achivements/>
+  <Achivements/> */}
+  fsdfsd
   </div>
   )
 }

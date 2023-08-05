@@ -27,9 +27,9 @@ export default function RootLayout({ children }) {
           white_cream:'#FBFAE1'
         }}
       >
-      <Navbar />
+      {/* <Navbar /> */}
       {children}
-      <Footer/>
+      {/* <Footer/> */}
       </MantineProvider>
       </body>
     </html>
