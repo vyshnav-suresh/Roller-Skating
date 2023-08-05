@@ -1,9 +1,4 @@
 import React from 'react'
-import Movingbanner from '../components/Movingbanner'
-import Achivements from '../components/main/Achivements'
-import HeroText from '../components/main/Section1'
-import Teams from '../components/main/Teams'
-
 
 
 const page = () => {
