@@ -2,7 +2,13 @@
   "compilerOptions": {
     "jsx": "react",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@components/*": ["./src/components/*"],
+      "@common/*": ["./src/components/common*"],
+      "@main/*": ["./src/components/main*"],
+
+
+
     }
   }
 }

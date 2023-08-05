@@ -1,8 +1,10 @@
-import Movingbanner from '@/components/Movingbanner'
+
+import Movingbanner from '../components/Movingbanner'
+import Achivements from '../components/main/Achivements'
+import HeroText from '../components/main/Section1'
+import Teams from '../components/main/Teams'
 import React from 'react'
-import Teams from '@/components/main/Teams'
-import Achivements from '@/components/main/Achivements'
-import HeroText from '@/components/main/Section1'
+
 
 const page = () => {
   return (
