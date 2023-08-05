@@ -1,4 +1,4 @@
-const { createStyles } = require("@mantine/core");
+const { createStyles, rem } = require("@mantine/core");
 
 export const nav = createStyles((theme) => ({
     header: {

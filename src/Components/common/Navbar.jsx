@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import { Header, Menu, Group, Center, Burger, Container, rem, Text } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
