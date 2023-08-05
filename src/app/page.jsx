@@ -1,4 +1,3 @@
-
 import Movingbanner from '../components/Movingbanner'
 import Achivements from '../components/main/Achivements'
 import HeroText from '../components/main/Section1'
