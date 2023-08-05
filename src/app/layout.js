@@ -1,9 +1,9 @@
 'use client'
-import { MantineProvider } from '@mantine/core'
 import './globals.css'
 import { Inter } from 'next/font/google'
-import Footer from '@/components/common/Footer'
-import Navbar from '@/components/common/Navbar'
+import Footer from '../components/common/Footer'
+import Navbar from '../components/common/Navbar'
+import { MantineProvider } from '@mantine/core'
 
 
 const inter = Inter({ subsets: ['latin'] })

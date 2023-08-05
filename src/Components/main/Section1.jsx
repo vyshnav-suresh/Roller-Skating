@@ -1,6 +1,5 @@
 'use client'
 import { createStyles, Title, Text, Button, Container, rem } from '@mantine/core';
-import CardsCarousel from '../Carousal';
 
 const useStyles = createStyles((theme) => ({
   wrapper: {
